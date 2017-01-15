@@ -1,0 +1,45 @@
+body, html, div, p {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.nav {
+  min-height: 30%;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  text-align: justify;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  color: #fff;
+  margin: 0;
+  font-size: 6rem;
+}
+
+.main {
+  background-color: #ffA0c8;
+  min-height: 70%;
+}
+
+.mainText {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 5rem;
+}
+
+@media (max-width: 600px) {
+  .header {
+    font-size: 5rem;
+  }
+
+  .mainText {
+    font-style: 3rem;
+  }
+}
